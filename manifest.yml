@@ -8,5 +8,6 @@ applications:
   name: php-mysql
   instances: 1
   memory: 256M
+  random-route: true
   services:
     - php-mysql-db
